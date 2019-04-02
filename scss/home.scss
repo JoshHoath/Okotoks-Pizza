@@ -1,0 +1,175 @@
+@import "_variables";
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+a   {
+    color: #000;
+    text-decoration: none;
+        &:hover {
+        color: $primary-red;
+        text-decoration: none;
+        }
+}
+.no-gutter > [class*='col-'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+.content {
+    background-color: $background-red;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
+}
+
+.flex-container {
+    display: flex;
+    height: 50vh;
+}
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: $primary-red;
+    text-align: center;
+}
+.row {
+    height: 25vh;
+    width: 100%;
+
+}
+.first-img {
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.first-tile {
+    height: 100%;
+    background-color: $second-red;
+
+        h3 {
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+        }
+}
+.second-img {
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.extra-tile {
+    height: 100%;
+    background-color: $fitfth-red;
+
+        h3 {
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+        }
+}
+.second-tile {
+    height: 100%;
+    background-color: $primary-red;
+
+        h3 {
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+
+        }
+}
+.third-img {
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.third-tile {
+    height: 100%;
+    background-color: $fourth-red;
+
+        h3{
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+        }
+}
+.fourth-img {
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.fifth-img {
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.fourth-tile {
+    height: 100%;
+    background-color: $primary-red;
+
+        h3 {
+            margin: 0;
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+
+        }
+}
+.sixth-img {
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+}
+.above-vid {
+    height: 30vh;
+    text-align: center;
+    padding-top: 10vw;
+}
+.youtube-vid {
+    height: 120vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+        iframe {
+            width: 100%;
+            height: 90%;
+        }
+}
+.fifth-tile {
+    height: 100%;
+    background-color: $second-red;
+
+        h3 {
+            margin: 0;
+            padding-top: 10vh;
+            font-size: 2.5vw;
+            font-weight: normal;
+            text-align: center;
+
+        }
+}

@@ -1,0 +1,67 @@
+@import "_variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+a:hover {
+        color: $primary-red;
+        text-decoration: none;
+}
+
+
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8DC;
+
+    a {
+        color: $link-color;
+    }
+
+    img {
+        width: 15%;
+        height: 15%;
+        display: inline;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+
+
+        h2 a {
+            font-size: 3.5vw;
+        }
+
+        h3 a {
+            font-size: 1.5vw;
+        }
+
+        h4 a {
+            font-size: 1.0vw;
+        }
+    }
+
+}
+h4 {
+    margin-bottom: 0;
+}
+.navbar {
+    margin-top: 0;
+    background-color: $primary-red;
+}
+button {
+    background-color: $primary-red;
+}
+.menu-button {
+    a {
+        color: #000;
+    }
+    a:hover {
+        color: #000;
+    }
+}

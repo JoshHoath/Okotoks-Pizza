@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px; }
+
+a:hover {
+  color: #DC3545;
+  text-decoration: none; }
+
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF8DC; }
+  .jumbotron a {
+    color: #000; }
+  .jumbotron img {
+    width: 15%;
+    height: 15%;
+    display: inline; }
+  .jumbotron ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0; }
+    .jumbotron ul h2 a {
+      font-size: 3.5vw; }
+    .jumbotron ul h3 a {
+      font-size: 1.5vw; }
+    .jumbotron ul h4 a {
+      font-size: 1.0vw; }
+
+h4 {
+  margin-bottom: 0; }
+
+.navbar {
+  margin-top: 0;
+  background-color: #DC3545; }
+
+button {
+  background-color: #DC3545; }
+
+.menu-button a {
+  color: #000; }
+
+.menu-button a:hover {
+  color: #000; }
